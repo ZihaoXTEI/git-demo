@@ -10,3 +10,8 @@ function log(errInfo) {
 }
 
 log('XXXXX')
+
+const bodyEl = document.querySelector('body')
+const div = document.createElement('div')
+div.innerText = '哈哈'
+bodyEl.appendChild(div)
